@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ec2-efs"
+version = "0.1.0"
+description = "CDK stack to create EC2 instance and mount EFS"
+authors = ["Aish <aish3546@gmail.com>"]
+
+[tool.poetry.dependencies]
+constructs = ">=10.3.0"
+aws-cdk-lib = ">=2.118.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
